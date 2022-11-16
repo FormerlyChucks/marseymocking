@@ -1,0 +1,15 @@
+IMGFLIPUSERNAME: ""
+IMGFLIPPASSWORD: ""
+TEMPLATEID: "102156234"
+TEMPLATEURL: "https://api.imgflip.com/caption_image"
+RDRAMATOKEN: ""
+RDRAMAUSERNAME: ""
+RDRAMAPASSWORD: ""
+CHOICES:
+  - "YES"
+  - "NO"
+  - "PASS"
+POSTCOMMENT_URL: "https://rdrama.net/comment"
+COMMENTS_URL: "https://rdrama.net/comments?page={}&sort=new&t=day"
+BANNED_IDS: []
+COMMENT_URL: "https://rdrama.net/comment/{}"
