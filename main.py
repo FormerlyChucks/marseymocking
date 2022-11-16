@@ -6,7 +6,7 @@ import traceback
 from urllib.parse import urlencode
 
 
-with open("/home/xxx/marseymocking/config.yaml") as configyaml:
+with open("/home/xxx/marseymocking/config.yaml") as configyaml:#change this
     config = yaml.safe_load(configyaml)
 
 IMGFLIPUSERNAME = config["IMGFLIPUSERNAME"]
@@ -101,7 +101,7 @@ def comment_check(comment):
     if commentid in ids:
         good = False
         quit()
-    with open("/home/xxx/marseymocking/ids.txt", "a") as idswrite:
+    with open("/home/xxx/marseymocking/ids.txt", "a") as idswrite:#and this
         idswrite.write(f"{commentid}\n")
     if comment["author"]["id"] in BANNED_IDS:
         good = False
